@@ -1,0 +1,225 @@
+
+
+/*Nadpis*/
+.nadpis {
+    font-family: Apple Chancery, cursive;
+    color: blue;
+    font-size: 100px;
+    text-align: center;
+}
+
+/* Menu */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(98, 151, 1);
+}
+
+nav a {
+    font-size: 15px;
+    line-height: 30px;
+    background-color: rgb(98, 151, 1);
+    font-family: "Oswald",Helvetica,Arial,sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+/* Obsah */
+.obsah{
+    max-width: 1050px;
+    margin: auto;   
+}
+
+.hlavny-obsah{    
+    /*width: 79.00%; */
+    /*float: left; */
+    
+    /*
+    background: white; 
+    border-style: hidden;    
+    border-radius: 10px; 
+    
+    border-color: gray;
+    border-style: solid;     
+    */
+    width: 100%;
+    min-height: 100%;
+    
+    padding: 10px;   
+    border-width: 1px;
+    border-radius: 10px;  
+    margin: 10px;    
+}
+
+.polozka-obsah{    
+    /*
+    display:flex;
+    align-items:center;
+    justify-content:center;    
+    
+    width: 100%;
+    height: 1000px;
+    */
+}
+
+/*Paticka*/
+.paticka{ 
+    background-color: rgb(98, 151, 1); 
+    position: relative;    
+    clear: both;    
+    z-index: 10;    
+}
+
+/*Login*/
+.login {
+    width: 200px;
+    height: 100px;
+
+    position: absolute;
+    top:0;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+.admin_menu {
+    float: left; 
+    width: 16%;
+    padding: 1%;
+    
+    background-color: rgb(35, 40, 45);        
+}
+
+.admin_menu a {
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.admin_menu a:hover {
+    text-decoration: underline;       
+}
+
+.admin_main {    
+    padding: 1%;
+    float: left;
+    width: 80%; 
+    background-color: Gainsboro; 
+}
+
+.admin_nadpis {
+    width: 50%;
+    text-align: left;
+    float: left;
+    
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 20px;      
+}
+
+.admin_odkaz {
+    width: 35%;
+    text-align: right;
+    float: right;
+    
+    line-height: 40px;
+    font-size: 30px;
+}
+
+admin_odkaz a {     
+    color: black;
+}
+
+.galeria_nahlad {  
+    width: 300px;    
+    height: 315px;
+    padding: 1%;    
+    float: left;
+    margin: 5px;       
+    text-align: center;
+    color: white;
+    background-color: DarkMagenta; 
+    border: 5px solid white;
+
+}
+
+div.galeria_nahlad img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px; 
+    max-width: 250px;
+    max-height: 250px;
+    
+}
+
+/* Add a hover effect (blue shadow) */
+div.galeria_nahlad img:hover {
+    box-shadow: 0 0 2px 2px greenyellow;
+}
+
+a {
+    color: white;
+    font-size: 20px;
+    line-height: 30px; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
